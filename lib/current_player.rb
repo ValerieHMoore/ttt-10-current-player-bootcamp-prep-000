@@ -10,7 +10,7 @@ counter
 end
 
 def current_player(board)
-  if turn_count % 2 == 0 || board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+  if turn_count % 2 == 0 || board == [" ", " ", " ", " ", " ", " ", " ", " ", " "]
     return "X"
   else
     return "O"
