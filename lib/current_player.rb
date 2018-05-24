@@ -9,4 +9,5 @@ end
 counter
 end
 
-def 
+def current_player(board)
+  if turn_count 
